@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1523515616232" stop="1523516271076" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1523516270977" stop="1523516270985" status="broken">
+            <name>openUrl</name>
+            <description>@BeforeTest</description>
+            <failure>
+                <message>NoClassDefFoundError: org/apache/xmlbeans/XmlObject</message>
+                <stack-trace>java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.test.sample.project.seleniumautomation.ProductValidation.openUrl(ProductValidation.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 24 more
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DDC5-D-78KFNK2"/>
+                <label name="thread" value="8476@DDC5-D-78KFNK2.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523516271015" stop="1523516271017" status="canceled">
+            <name>start</name>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:369)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:181)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1723)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1714)
+	at org.testng.internal.Invoker.registerSkippedTestResult(Invoker.java:1272)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:605)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DDC5-D-78KFNK2"/>
+                <label name="thread" value="8476@DDC5-D-78KFNK2.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523516271019" stop="1523516271020" status="canceled">
+            <name>printResults</name>
+            <description>@AfterTest</description>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:369)
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onConfigurationSkip(AllureTestListener.java:126)
+	at org.testng.internal.Invoker.runConfigurationListeners(Invoker.java:1698)
+	at org.testng.internal.Invoker.handleConfigurationSkip(Invoker.java:263)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:200)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DDC5-D-78KFNK2"/>
+                <label name="thread" value="8476@DDC5-D-78KFNK2.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

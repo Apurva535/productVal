@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103872" started-at="2018-05-07T09:52:34Z" finished-at="2018-05-07T09:54:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103872" started-at="2018-05-07T09:52:34Z" finished-at="2018-05-07T09:54:18Z">
+      <class name="com.test.sample.project.seleniumautomation.ProductValidationWithMethods">
+        <test-method status="PASS" signature="readExcel()[pri:0, instance:com.test.sample.project.seleniumautomation.ProductValidationWithMethods@1dfe2924]" name="readExcel" is-config="true" duration-ms="618" started-at="2018-05-07T15:22:34Z" finished-at="2018-05-07T15:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.test.sample.project.seleniumautomation.ProductValidationWithMethods@1dfe2924]" name="start" duration-ms="102073" started-at="2018-05-07T15:22:34Z" finished-at="2018-05-07T15:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="printResults()[pri:0, instance:com.test.sample.project.seleniumautomation.ProductValidationWithMethods@1dfe2924]" name="printResults" is-config="true" duration-ms="1089" started-at="2018-05-07T15:24:17Z" finished-at="2018-05-07T15:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResults -->
+      </class> <!-- com.test.sample.project.seleniumautomation.ProductValidationWithMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
